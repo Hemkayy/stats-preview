@@ -1,0 +1,62 @@
+h1>span{
+   color: hsl(277, 64%, 61%); 
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%)
+}
+p{
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%, 0.75);
+}
+.organize{
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    width: 75%;
+    border-radius: 10px;
+}
+
+.text {
+    flex-basis: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+.arrange{
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+.one{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: hsl(0, 0%, 100%, 0.75);
+}
+.two{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: hsl(0, 0%, 100%, 0.75);
+}
+.three{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: hsl(0, 0%, 100%, 0.75);
+}
+.image{
+    /* min-height:100%; */
+    background: linear-gradient(0deg, hsla(277, 64%, 61%, 0.4), hsla(277, 64%, 61%, 0.4)), url(images/image-header-mobile.jpg);
+    background-size: cover;
+    /* height: 500px;
+    width: 500px; */
+    flex-basis: 50%;
+    border-radius: 10px;
+}
